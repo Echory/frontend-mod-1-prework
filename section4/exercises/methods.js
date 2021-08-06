@@ -18,3 +18,10 @@ var lunchOrder = {
   beverage: "iced tea",
   tableNumber: 47
 }
+
+lunchOrder.side = 'fries';
+lunchOrder.note = 'extra sauce';
+console.log(lunchOrder);
+
+console.log('Order in progress');
+console.log('Order complete');
